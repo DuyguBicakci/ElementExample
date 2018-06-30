@@ -85,7 +85,7 @@ public class PersonalInfoTests {
 		yearsOfExperience = data.number().numberBetween(0, 11);
 		education = data.number().numberBetween(1, 4)+"";
 		github = "https://github.com/CybertekSchool/selenium-maven-automation.git";
-		certifications = new ArrayList<>();
+		certifications = new ArrayList<String>();
 		certifications.add("Java OCA");
 		certifications.add("AWS");
 		additionalSkills = data.job().keySkills();
